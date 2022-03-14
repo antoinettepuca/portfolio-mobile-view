@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@0;1&family=Space+Mono&display=swap');
+body {
+    background-color: lightgray;
+    background-image: url('../images/backgroundimage.jpg');
+    font-family: 'Source Sans Pro', 'Trebuchet MS', Arial;
+    color: black;
+}
+nav li {
+    display: inline;
+    line-height: 30px;
+    color: blue;
+    padding: 5px;
+    margin: 15px 0px 0px 10px;
+}
+.active {
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: solid purple 1px;
+}
+
+h1, h2, .container, .alone, #caption{
+    text-align: center;    
+}
+h1 {
+    line-height: 30px;
+    text-transform: uppercase;
+}
+h2 {
+    line-height: 20px
+}
+h2, p, li {
+    padding: 0px 10px;
+}
+footer {
+    text-align: center;
+    background: darkblue;
+    color: white;
+    line-height: 18px;
+}
+.container {
+    margin: 15px;
+    border: purple dashed;
+    border-radius: 10px;
+}
+img{
+    padding: 10px;
+    border: darkblue solid 4px;
+    width: 200px;
+    display: inline-block;
+    margin: 30px;
+}
+img:nth-child(2n) {
+    border: purple solid 4px;
+}
+img:hover{
+    border-style: dashed;
+    border-radius: 4px;
+}
+img:hover:nth-child(2n) {
+    border-color: violet;
+}
+
+@keyframes mymove {
+    from {width: 25px; opacity: 0;}
+    to {width: 475px; opacity: 1;}
+}
+
+.alone {
+    margin: 0 auto;
+    animation-name: mymove;
+    animation-duration: 5s;
+}
+
+@media screen and (prefers-reduced-motion: reduce){
+    .alone {
+        animation: none;
+    }
+}
