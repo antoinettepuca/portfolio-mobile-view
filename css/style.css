@@ -72,6 +72,13 @@ img:hover:nth-child(2n) {
     animation-duration: 5s;
 }
 
+form{
+    text-align: center;
+}
+label {
+    display: block;
+}
+
 @media screen and (prefers-reduced-motion: reduce){
     .alone {
         animation: none;
