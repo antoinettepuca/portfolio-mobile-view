@@ -82,13 +82,31 @@
 			<li>Do NOT use damp oven mitts when using an oven</li>
 		</ul><br>
 
-		<h2>Video Interviews of Students</h2><br>
-			<p>The video below shows a compliation of interviews of different students throughout campus on their cooking and baking habits.
-				Living more independently, many college students can struggle with cooking on their own for the first time. This video is 
-				intended to discuss the drawbacks of how limited time and resources can affect the ability for students to cook, and their
-				ways of navigavting this issue. Additional follow up questions include their favorite recipes and tips on making food. The 
-				students in this video are (list students here when video is completed). 
-			</p><br>
+		<form action="https://formspree.io/f/xjvloopl" method="POST">
+			<fieldset>
+			  <legend>Form to Input Additional Tips</legend>
+		  
+			  <br><label for="name">Name</label>
+			  <input type="text" placeholder="Enter Your Name" id = "name" name="name" required><br>
+		  
+			  <br><label for="email">Email</label>
+			  <input type="email" placeholder="Enter Your Email" id = "email" name="email" required><br>
+				
+			  <br><label for="experience">What is Your Cooking Experience?</label>
+			  <span>Beginner</span>
+			  <input type="range" min="1" max="5" step="0.5" class="slider" id="experience">
+			  <span>Advanced</span>
+		  
+			  <br><br><label for="recipes">Enter Your Favorite Recipes and Foods to Eat</label>
+			  <textarea placeholder="Enter recipes here" id = "recipes" name="recipes"></textarea><br>
+
+			  <br><label for="tips">Enter Cooking and Baking Tips</label>
+			  <textarea placeholder="Enter tips here" id = "tips" name="tips"></textarea><br>
+		  
+			  <br><input type="submit" value = "Submit Info">
+			  <br>
+			</fieldset>
+		</form>
 	</main>
 
 	<footer>
