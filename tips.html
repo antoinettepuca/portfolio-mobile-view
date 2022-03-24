@@ -7,14 +7,15 @@
 	<link rel="icon" href="images/favicon.png">
 	<link rel="stylesheet" href="css/html5reset.css">
 	<link rel="stylesheet" href="css/style.css">
+	<script src="https://kit.fontawesome.com/823db769aa.js" crossorigin="anonymous"></script>
 	<title>Learn to Cook!</title>
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-RFY3JHJZHF"></script>
 	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-		gtag('config', 'G-RFY3JHJZHF');
+  	window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+  	gtag('js', new Date());
+  	gtag('config', 'G-RFY3JHJZHF');
 	</script>
 </head>
 
@@ -22,65 +23,68 @@
 	<!-- <a class = "skip" href ="#main">Skip to Main Content</a> -->
 	<header>
 		<nav>
-			<ul>
+			<ul class = "navigation_links">
 				<li><a href = "index.html">Learn to Cook!</a></li>
 				<li class="active"><a href = "tips.html">Tips</a></li>
 				<li><a href = "cooking.html">Cooking</a></li>
 				<li><a href = "baking.html">Baking</a></li>
 			</ul>
 		</nav>
-		<br><h1>Cooking and Baking Tips</h1><br>
+		<h1>Cooking and Baking Tips</h1>
 	</header>
 
 	<main>
-		<h2 id="main">Overcoming Freezer Food & Eating Out</h2><br>
-			<p>When talking to people that do not choose to cook their own meals, I've learned that many do not choose to cook due to limited experience and convience.
-				While there are freezer meals and restuarant options for someone that chooses not to cook, using this as a sole method for eating can be very expensive
-				to a consumer. Additionally, frozen meals tend to not have as many nutrients and the same level of freshness. Personally, I recommended that frozen meals
-				be cooked as more of a last resort and restuarant food to be saved for more special occasions. Getting started in cooking and baking can be scary, but
-				hopefully these tips and recipes help. Cooking with others can be a great way to connect, and I encourage you as a user to ask people what recipes they
-				enjoy as well.
-			</p><br>
-			<div class = "alone">
-				<img src = "images/freezer.JPG" alt = "Picture of cluttered freezer" width="200"/>
-			</div>
-			<p id="caption">Here shows an example of a cluttered freezer as a result of my roommates eating too much freezer food.</p><br>
-
+		<div class = "container">
+			<h2 id="main">Overcoming Freezer Food & Eating Out</h2>
+				<p>When talking to people that do not choose to cook their own meals, I've learned that many do not choose to cook due to limited experience and convience.
+					While there are freezer meals and restuarant options for someone that chooses not to cook, using this as a sole method for eating can be very expensive
+					to a consumer. Additionally, frozen meals tend to not have as many nutrients and the same level of freshness. Personally, I recommended that frozen meals
+					be cooked as more of a last resort and restuarant food to be saved for more special occasions. Getting started in cooking and baking can be scary, but
+					hopefully these tips and recipes help. Cooking with others can be a great way to connect, and I encourage you as a user to ask people what recipes they
+					enjoy as well.
+				</p>
+				<div class = "freezer">
+					<img id = "freezer" src = "images/freezer.JPG" alt = "Picture of cluttered freezer" width="200"/>
+				</div>
+				<p id="caption">Here shows an example of a cluttered freezer as a result of my roommates eating too much freezer food.</p>
+		</div>
+		<div class = "container">
 		<h2>List of Equipment Every College Kitchen Needs</h2>
-		<ul>
-			<li>Cutting board</li>
-			<li>Knife set</li>
-			<li>Spatula</li>
-			<li>Kitchen shears</li>
-			<li>Measuring cups</li>
-			<li>Oven tray</li>
-			<li>Various pots and pans</li>
-		</ul>
-		<p>For more information, please visit <a href = "https://www.themanual.com/food-and-drink/essential-kitchen-tools-and-appliances/">this article from 
-				The Manuel on additional equipment</a>
-		</p><br>
-
-		<h2>List of Cooking & Baking Tips</h2>
-		<ul>
-			<li>Plan out groceries ahead of time, and don't shop for food when you're hungry!</li>
-			<li>Use oven or stove to reheat food instead of microwave</li>
-			<li>Prep ingredients before cooking</li>
-			<li>Use better and fresher ingredients when you can</li>
-			<li>Keep vegetable, bread, and meat scraps. They are great for making a stew or breadcrumbs</li>
-			<li>Experiment with different recipes in the kitchen to find a flavor palate best for you!</li>
-			<li>Clean your cooking equipment and workspace as you go</li>
-			<li>Prep food in larger batches to last for more meals</li>
-			<li>Use the freezer to store extra meat and bread</li>
-			<li>Store salad greens in a resuable bag with a paper towel to keep them fresh</li>
-			<li>Put a damp towel under cutting board to prevent it from sliding</li>
-			<li>Save pasta water to include in sauce for more flavor</li>
-			<li>When cutting garlic, smash the clove with the side of a knife for easier peeling</li>
-			<li>Do NOT put grease, banana peels, or flour down the sink</li>
-			<li>Do NOT use extra virgin olive oil to cook meats. It's more for flavoring</li>
-			<li>Do NOT use metal utensils on a nonstick pan</li>
-			<li>Do NOT flatten a burger or meat with a spatula when grilling. It takes out its flavor</li>
-			<li>Do NOT use damp oven mitts when using an oven</li>
-		</ul><br>
+			<ul>
+				<li>Cutting board</li>
+				<li>Knife set</li>
+				<li>Spatula</li>
+				<li>Kitchen shears</li>
+				<li>Measuring cups</li>
+				<li>Oven tray</li>
+				<li>Various pots and pans</li>
+				<li>For more information, please visit <a href = "https://www.themanual.com/food-and-drink/essential-kitchen-tools-and-appliances/">this article from 
+				The Manuel on additional equipment</a></li>
+			</ul>
+		</div>
+		<div class = "container">
+			<h2>List of Cooking & Baking Tips</h2>
+			<ul>
+				<li>Plan out groceries ahead of time, and don't shop for food when you're hungry!</li>
+				<li>Use oven or stove to reheat food instead of microwave</li>
+				<li>Prep ingredients before cooking</li>
+				<li>Use better and fresher ingredients when you can</li>
+				<li>Keep vegetable, bread, and meat scraps. They are great for making a stew or breadcrumbs</li>
+				<li>Experiment with different recipes in the kitchen to find a flavor palate best for you!</li>
+				<li>Clean your cooking equipment and workspace as you go</li>
+				<li>Prep food in larger batches to last for more meals</li>
+				<li>Use the freezer to store extra meat and bread</li>
+				<li>Store salad greens in a resuable bag with a paper towel to keep them fresh</li>
+				<li>Put a damp towel under cutting board to prevent it from sliding</li>
+				<li>Save pasta water to include in sauce for more flavor</li>
+				<li>When cutting garlic, smash the clove with the side of a knife for easier peeling</li>
+				<li>Do NOT put grease, banana peels, or flour down the sink</li>
+				<li>Do NOT use extra virgin olive oil to cook meats. It's more for flavoring</li>
+				<li>Do NOT use metal utensils on a nonstick pan</li>
+				<li>Do NOT flatten a burger or meat with a spatula when grilling. It takes out its flavor</li>
+				<li>Do NOT use damp oven mitts when using an oven</li>
+			</ul>
+		</div>
 
 		<form action="https://formspree.io/f/xjvloopl" method="POST">
 			<fieldset>
@@ -106,11 +110,14 @@
 			  <br><input type="submit" value = "Submit Info">
 			  <br>
 			</fieldset>
-		</form>
+		   </form>
 	</main>
 
 	<footer>
 		<p>Antoinette Puca<br>SI 339 Portfolio Project<br>University of Michigan</p>
+		<p>Email Me With Any Cooking Concerns Or Tips!</p>
+		<a id="icon" href="mailto:annacpuca@gmail.com" aria-label = "Use icon to send e an email and get connected!" class="fa-solid fa-inbox"></a>
 	</footer>
 </body>
 </html>
+
