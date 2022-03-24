@@ -126,13 +126,14 @@ img:nth-child(2n) {
     justify-content: space-around;
 }
 
-.baking_images, .animation, .freezer, #sheet {
+.baking_images, .animation, .freezer, embed {
     display: grid;
     columns: 1;
     justify-content: center;
 }
 
-#sheet {
+embed {
+    height: 250px;
     width: 90%;
 }
 
