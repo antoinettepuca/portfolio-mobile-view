@@ -47,7 +47,8 @@ nav li {
     text-transform: uppercase;
     color: #702963;
     padding-bottom: 30px;
-    display: none;
+    position: absolute;
+    left: -500px;
 }
 
 h1, h2, #caption{
@@ -110,7 +111,7 @@ img:nth-child(2n) {
 
 @keyframes growing {
     from {transform: scale(1);}
-    to {transform: scale(1.5); margin: 5%;}
+    to {transform: scale(1.25); margin: 10%;}
 }
 
 .freezer:hover {
@@ -125,10 +126,14 @@ img:nth-child(2n) {
     justify-content: space-around;
 }
 
-.baking_images, .animation, .freezer {
+.baking_images, .animation, .freezer, #sheet {
     display: grid;
     columns: 1;
     justify-content: center;
+}
+
+#sheet {
+    width: 90%;
 }
 
 form{
